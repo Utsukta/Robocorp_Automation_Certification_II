@@ -97,8 +97,8 @@ def embed_screenshot_to_receipt(order_number):
 #subdirectories for the output artifacts, you need to ZIP the receipt PDFs.
      
 def archive_receipts():
-     archieve= Archive()
-     archieve.archive_folder_with_zip("output/receipt","output/receipt.zip")
+     archive= Archive()
+     archive.archive_folder_with_zip("output/receipt","output/receipt.zip")
 
 
 
